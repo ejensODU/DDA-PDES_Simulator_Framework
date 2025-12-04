@@ -1,0 +1,13 @@
+model_name : Irregular_2D_NoC_grid_network
+grid_size_x : 64
+grid_size_y : 64
+hop_radius : 1
+network_topology_file : network_topology_80.txt
+num_servers_per_network_node : 1
+max_num_intra_arrive_events : 25
+max_time : 1000000
+num_threads : 1
+dist_seed : 0
+bucket_width : 0.02
+target_bin_size : 512
+dist_params_file : irregular_NoC_grid_network_default_dist_params_0_trial_0.txt

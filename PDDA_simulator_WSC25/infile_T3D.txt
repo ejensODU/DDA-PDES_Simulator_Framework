@@ -1,0 +1,13 @@
+model_name : 3D_torus_network
+grid_size_x : 16
+grid_size_y : 16
+grid_size_z : 16
+hop_radius : 4
+num_servers_per_network_node : 1
+max_num_intra_arrive_events : 100
+max_time : 10000000
+num_threads : 1
+dist_seed : 0
+bucket_width : 0.001
+target_bin_size : 512
+dist_params_file: 3D_torus_network_default_dist_params_0_trial_0.txt

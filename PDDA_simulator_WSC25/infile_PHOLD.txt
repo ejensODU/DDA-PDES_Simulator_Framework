@@ -1,0 +1,9 @@
+model_name : PHOLD_benchmark
+network_size : 4096
+max_num_arrive_events : 10000
+max_time : 10000000
+num_threads : 1
+dist_seed : 0
+bucket_width : 0.001
+target_bin_size : 128
+dist_params_file : PHOLD_default_dist_params_0_trial_0.txt

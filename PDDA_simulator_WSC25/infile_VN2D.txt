@@ -1,0 +1,12 @@
+model_name : VN2D_grid_network
+grid_size_x : 64
+grid_size_y : 64
+hop_radius : 1
+num_servers_per_network_node : 1
+max_num_intra_arrive_events : 50
+max_time : 1000000
+num_threads : 10
+dist_seed : 0
+bucket_width : 0.02
+target_bin_size : 128
+dist_params_file : 2D_grid_network_default_dist_params_0_trial_0.txt
